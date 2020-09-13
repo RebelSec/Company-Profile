@@ -1,0 +1,26 @@
+.clients {
+    min-height: 200px;
+    background-image: url(../img/clients/about.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+section {
+    min-height: 400px;
+}
+
+.client img {
+    width: 150px;
+}
+
+.portfolio .img-thumbnail {
+    opacity: 0;
+    transition: .5s;
+    transform: translate(0, -40px);
+}
+
+.portfolio .img-thumbnail.muncul {
+    opacity: 1;
+    transform: translate(0, 0);
+}
